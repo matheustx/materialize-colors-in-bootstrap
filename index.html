@@ -11,14 +11,14 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
     crossorigin="anonymous">
 <link rel="stylesheet" href="css/animate.css">
-<link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/style.css">
 <title>Materialize Colors in Bootstrap</title>
 </head>
 
 <body class="bg-amber">
 <div class="jumbotron bg-transparent">
-    <h1 class="display-2 animated bounce text-light"><i class="fas fa-fill-drip"></i> Materialize Colors in Bootstrap</h1>
+    <h1 class="display-1 animated bounce text-light d-none d-lg-block d-print-block"><i class="fas fa-fill-drip"></i> Materialize Colors in Bootstrap</h1>
+    <h1 class="display-4 animated bounce text-light d-sm-block"><i class="fas fa-fill-drip"></i> Materialize Colors in Bootstrap</h1>
     <p class="lead">Use the color diversity of Materialize CSS within Bootstrap for your front-end projects.</p>
     <hr class="my-2">
     <p class="lead">
@@ -27,6 +27,8 @@
                 class="fas fa-cloud-download-alt"></i> Download</a>
     </p>
 </div>
+<div class="d-print-none">Screen Only (Hide on print only)</div>
+<div class="d-none d-print-block">Print Only (Hide on screen only)</div>
 <main class="container-fluid">
 <section class="row">
     <!--RED-->
